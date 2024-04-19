@@ -1,0 +1,80 @@
+body{
+ 
+    color: black;
+    background-image:url('https://olorisupergal.com/wp-content/uploads/2018/07/Logo-FIFA.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#head {
+    font-size:8em;
+    text-shadow:5px 5px 8px cyan,-5px -5px 8px red;
+     text-align:center ;
+}
+#tail {
+    font-size:1em;
+    color:grey;
+    font-style:bolder ;
+    background-color:aqua;
+}
+#body{
+    background-color: grey;
+    color: aliceblue;
+
+}
+#body img{
+    border: 3px solid white;
+}
+#body header{
+            height:16em;
+            background-color: black;
+            
+}
+#body footer{
+    height:14em;
+    background-color: black;
+}
+#body main{
+    background-color: black;
+
+}
+#sh{
+    text-shadow: 8px 8px 12px cyan,-8px -8px 12px red;
+    
+}
+#fo{
+    font-size: 16px;
+}
+#fo input[type="submit"]{
+  
+    border: none;
+    background-color: #4caf50;
+    color: white;
+  
+    cursor: pointer;
+    width: 50%;
+
+
+  }
+
+#fo input, select 
+{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+}
+#fo input[type="reset"]{
+border-radius:10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+   cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    
+
+  }
